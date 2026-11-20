@@ -1,0 +1,8 @@
+pyyaml
+reportlab
+pypdf
+pypdfium2
+tqdm
+requests
+fonttools
+markitdown[pdf]

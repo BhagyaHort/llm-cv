@@ -1,0 +1,12 @@
+# Shell scripts must keep LF endings or Git Bash fails with "\r: command not found".
+*.sh text eol=lf
+*.py text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.ttf binary
+*.otf binary
+*.pdf binary
+*.jpg binary
+*.png binary

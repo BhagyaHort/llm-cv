@@ -1,0 +1,114 @@
+# Project / experience catalog for Bhagya Lekshmi Vikraman Nair.
+# Source documents: okf/raw/ (resume, transcripts, reference letter, certificates).
+# Every claim below is traceable to those documents. Do NOT add metrics that are
+# not in the sources (no invented percentages, sample sizes or results).
+#
+# Fields consumed by the pipeline (same schema as before):
+#   title, description, technologies (tools/methods), archetypes, business_problem,
+#   key_metrics, transferable_skills, repo_url, bullets, keywords
+#
+# Archetypes used for this profile:
+#   Plant Research & Experiments | Quality Control & Food Safety |
+#   Hydroponics & Controlled-Environment Agriculture
+
+projects:
+  - title: "Master's Thesis: Antihyperglycemic Potential of Costus pictus (Insulin Plant)"
+    description: "Master's thesis at Humboldt-Universität zu Berlin on the medicinal insulin plant Costus pictus, within an international collaboration with the Indian Institute of Technology on plant-based approaches to metabolic health."
+    technologies: "Plant cultivation under varying light regimes, sample collection and preparation, plant extraction, analytical procedures, quantitative and qualitative data analysis, phytochemical profiling"
+    archetypes:
+      - Plant Research & Experiments
+      - Hydroponics & Controlled-Environment Agriculture
+    business_problem: "Investigating how light regime affects growth and secondary metabolites of Costus pictus, and the plant's phytochemical profile and biological activity for therapeutic (antihyperglycemic) applications."
+    key_metrics: "International collaboration with the Indian Institute of Technology; multi-site experimental data integration; thesis in progress (programme completes 05/2027)"
+    transferable_skills: ["experimental design", "plant cultivation", "laboratory analysis", "sample preparation", "extraction", "data analysis", "documentation", "reproducibility", "international collaboration", "secondary metabolites", "light regime studies", "research"]
+    repo_url: ""
+    bullets:
+      - "Conducting in-depth research on the medicinal plant Costus pictus as part of an international collaborative project investigating phytochemical profiles and biological activity for therapeutic applications"
+      - "Cultivating plants under varying light regimes to study effects on secondary metabolites and growth"
+      - "Designing and executing laboratory experiments, including sample collection, preparation, extraction and analytical procedures"
+      - "Performing quantitative and qualitative data analysis, interpreting results and maintaining meticulous documentation to ensure reproducibility"
+      - "Coordinating with international research partners, contributing to cross-institutional discussions and integrating multi-site experimental data"
+    keywords: [costus pictus, insulin plant, medicinal plants, secondary metabolites, phytochemistry, light regime, plant cultivation, extraction, laboratory, experimental design, data analysis, reproducibility, international collaboration, antihyperglycemic, metabolic health]
+
+  - title: "Working Student, Plant Experiments & Product Development (FYTA)"
+    description: "Setting up and running plant experiments that support the development of FYTA's smart plant-care products."
+    technologies: "Plant experiments, plant growth and health monitoring, measurement recording, results documentation"
+    archetypes:
+      - Plant Research & Experiments
+      - Quality Control & Food Safety
+    business_problem: "Turning plant-science expertise into reliable experimental evidence that informs product development decisions for smart plant-care products."
+    key_metrics: "Ongoing since 07/2026; cross-functional work with the product team"
+    transferable_skills: ["plant experiments", "plant health monitoring", "data recording", "results analysis", "documentation", "product development", "cross-functional collaboration", "plant science"]
+    repo_url: ""
+    bullets:
+      - "Setting up, running and maintaining plant experiments to support the development of FYTA's smart plant-care products"
+      - "Monitoring plant growth and health, and recording experimental measurements accurately"
+      - "Analysing and documenting experiment results to inform product development decisions"
+      - "Contributing plant-science expertise to the product team and collaborating across functions"
+    keywords: [plant experiments, product development, smart plant care, plant health, plant growth, monitoring, documentation, cross-functional, working student, experiment design]
+
+  - title: "ZALF Root Trait & Soil Isotope Research (RhizoTraits and ErosioN Projects)"
+    description: "Research assistant work at the Leibniz Centre for Agricultural Landscape Research (ZALF), Isotope Biogeochemistry and Gas Fluxes group, on root traits and soil erosion effects."
+    technologies: "ImageJ, Microsoft Excel (Pivot Tables), root sampling, soil sampling, 15N isotope sample preparation"
+    archetypes:
+      - Plant Research & Experiments
+      - Quality Control & Food Safety
+    business_problem: "Quantifying root hair, root architecture and root density/patchiness for phenotypic research, and assessing how soil erosion affects plant growth and agricultural productivity through nitrogen isotope analysis."
+    key_metrics: "06/2024 - 09/2024; approx. 40 hours per month; reference letter from Dr. Maire Holz (ZALF), 11.07.2025"
+    transferable_skills: ["image analysis", "root phenotyping", "sampling", "isotope analysis", "sample preparation", "data analysis", "excel pivot tables", "field and lab trials", "plant-soil interactions", "attention to detail", "independent work"]
+    repo_url: ""
+    bullets:
+      - "Assisted in harvesting plant samples and conducted root hair and root architecture analysis using ImageJ for quantification within the RhizoTraits project"
+      - "Collected and analysed data on root density and patchiness using Excel Pivot Tables to support phenotypic research on root system traits"
+      - "Conducted soil sampling and prepared samples for nitrogen (15N) isotope analysis within the ErosioN project, examining the impact of soil erosion on plant growth and agricultural productivity"
+      - "Supported field and lab trials on plant-soil interactions; reference letter confirms strong technical skills, attention to detail and ability to work independently"
+    keywords: [zalf, imagej, root traits, root architecture, root density, soil sampling, 15n, nitrogen isotope, isotope analysis, excel pivot tables, plant-soil interactions, field trials, laboratory, phenotyping, soil erosion]
+
+  - title: "Hydroponics Food Safety & Quality (Our Greenery GmbH Internship)"
+    description: "Internship in a hydroponic production company focused on food safety standards, nutrient and water-quality regulation, and contamination control in microgreens."
+    technologies: "Hydroponic production systems, nutrient solution management, pH and water quality monitoring, plant health quality assessment, contamination control"
+    archetypes:
+      - Hydroponics & Controlled-Environment Agriculture
+      - Quality Control & Food Safety
+    business_problem: "Keeping hydroponic crop production safe and high quality by regulating nutrients, pH and water quality and by preventing fungal contamination and spoilage in microgreens."
+    key_metrics: "08/2023 - 02/2024 (Berlin); fungal contamination risks identified and mitigated in microgreens"
+    transferable_skills: ["hydroponics", "food safety", "quality assurance", "quality control", "nutrient management", "pH and EC control", "water quality", "contamination control", "plant health assessment", "compliance"]
+    repo_url: ""
+    bullets:
+      - "Gained hands-on experience in monitoring and maintaining food safety standards within hydroponic production systems"
+      - "Assisted in regulating nutrient levels, pH and water quality to ensure optimal conditions for safe and high-quality crop production"
+      - "Conducted regular quality assessments of plant health, ensuring compliance with food safety and quality standards"
+      - "Identified and mitigated fungal contamination risks in microgreens, improving overall product safety and reducing spoilage"
+    keywords: [hydroponics, microgreens, food safety, quality control, quality assurance, nutrient solution, ph, ec, water quality, fungal contamination, spoilage, compliance, soilless cultivation, controlled environment]
+
+  - title: "Seminar Research: Health Impacts of Environmental Contaminants in Plant Foods"
+    description: "Systematic literature review (Seminar Horticulture, Humboldt-Universität zu Berlin) on contamination of plant-based foods by heavy metals, pesticides, persistent organic pollutants and pathogens, and on detection and prevention methods."
+    technologies: "Systematic literature review (Google Scholar, ScienceDirect), thematic analysis, inclusion/exclusion criteria, food contaminant analytics overview (mass spectrometry, chromatography)"
+    archetypes:
+      - Quality Control & Food Safety
+      - Plant Research & Experiments
+    business_problem: "Synthesising peer-reviewed evidence on how environmental contaminants (e.g. cadmium, lead, pesticide residues, POPs, E. coli) reach plant foods, their health effects, and which analytical and preventive measures control them."
+    key_metrics: "Peer-reviewed papers published 2018-2022 selected by explicit inclusion/exclusion criteria; two thematic analyses (causes of contamination; preventive measures); 23-page report; seminar module grade 2.7"
+    transferable_skills: ["literature review", "research synthesis", "food safety", "contaminant analysis", "risk assessment", "scientific writing", "critical appraisal", "thematic analysis", "heavy metals", "pesticide residues", "microbial contamination"]
+    repo_url: ""
+    bullets:
+      - "Conducted a systematic literature review on environmental contaminants in plant foods (heavy metals, pesticide residues, persistent organic pollutants, pathogens) and their human health impacts"
+      - "Searched Google Scholar and ScienceDirect with Boolean keyword strategy and applied explicit inclusion and exclusion criteria to select peer-reviewed studies published 2018-2022"
+      - "Synthesised findings in two thematic analyses covering causes of food contamination and preventive measures, and reviewed detection methods such as mass spectrometry and chromatographic separation"
+    keywords: [literature review, food safety, contaminants, heavy metals, cadmium, lead, pesticides, persistent organic pollutants, pathogens, e coli, mass spectrometry, chromatography, thematic analysis, research synthesis, seminar horticulture]
+
+  - title: "Rural Agricultural Work Experience (RAWE) Programme, TNAU"
+    description: "Mandatory practical attachment programme of the B.Sc. Agriculture degree: ADA attachment, ICAR-Krishi Vigyan Kendra (Myrada) NGO attachment and an industrial tie-up with Sakthe Animal Feeds, Erode District, Tamil Nadu."
+    technologies: "Agricultural extension, farm and field practice, KVK training, cattle and poultry feed manufacturing exposure"
+    archetypes:
+      - Plant Research & Experiments
+      - Quality Control & Food Safety
+    business_problem: "Practical exposure to agricultural extension, on-farm practice and feed manufacturing as part of the final-year rural work experience."
+    key_metrics: "ADA attachment (10 days, Gobichettipalayam block); ICAR-KVK Myrada NGO attachment 16.12.2019 - 23.12.2019; Sakthe Animal Feeds industrial tie-up (10 days, certificate dated 14.12.2019)"
+    transferable_skills: ["agricultural extension", "field practice", "on-farm experience", "industry exposure", "training"]
+    repo_url: ""
+    bullets:
+      - "Completed the Rural Agricultural Work Experience (RAWE) programme of the B.Sc. Agriculture degree at Tamil Nadu Agricultural University (JKK Munirajah College of Agricultural Science)"
+      - "Attached to the Assistant Director of Agriculture office (ADA), Gobichettipalayam block, and to ICAR-Krishi Vigyan Kendra Myrada (NGO attachment, 12/2019)"
+      - "Completed an industrial tie-up at Sakthe Animal Feeds, a cattle and poultry feed manufacturer, as part of the programme"
+    keywords: [rawe, rural agricultural work experience, icar, krishi vigyan kendra, kvk, agricultural extension, animal feed, tamil nadu agricultural university, b.sc. agriculture, field practice]

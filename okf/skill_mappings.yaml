@@ -1,0 +1,113 @@
+# Skill normalization rules — loaded by obsidian_sync_core.normalize_skill()
+#
+# Rules are evaluated in order; first match wins.
+#
+# Each rule may specify any combination of:
+#   exact:            list of strings that must equal lower(s) exactly
+#   prefix:           list of strings that lower(s) must start with
+#   contains:         list of strings that lower(s) must contain
+#   exclude_contains: list of strings that must NOT be contained in lower(s)
+#   canonical:        the canonical skill name to return on match
+#
+# If no rule matches, the fallback is title-case for all-lowercase input,
+# otherwise the cleaned-up original string.
+#
+# Profile: Bhagya Lekshmi Vikraman Nair (plant science / horticulture / food safety).
+
+rules:
+  # --- Cultivation systems ---
+  - canonical: "Hydroponics"
+    prefix: ["hydroponic"]
+  - canonical: "Soilless Cultivation"
+    prefix: ["soilless", "substrate-free", "substratlos"]
+  - canonical: "Greenhouse Management"
+    prefix: ["greenhouse", "gewächshaus", "gewaechshaus"]
+  - canonical: "Controlled-Environment Agriculture"
+    prefix: ["controlled environment", "controlled-environment", "cea", "indoor farming", "vertical farming"]
+  - canonical: "Microgreens"
+    prefix: ["microgreen"]
+  - canonical: "Vegetable Production"
+    prefix: ["vegetable production", "gemüseproduktion", "gemueseproduktion"]
+  - canonical: "Mushroom Cultivation"
+    prefix: ["mushroom", "pilzanbau"]
+  - canonical: "Plant Growth Studies"
+    contains: ["light regime", "growth and health", "plant growth"]
+
+  # --- Plant science ---
+  - canonical: "Plant Nutrition"
+    prefix: ["plant nutrition", "pflanzenernährung", "pflanzenernaehrung", "nutrient management", "nutrient solution"]
+  - canonical: "Plant Pathology"
+    prefix: ["plant pathology", "plant disease", "pflanzenpathologie"]
+  - canonical: "Secondary Metabolites"
+    prefix: ["secondary metabolite", "phytochemi"]
+  - canonical: "Medicinal Plants"
+    prefix: ["medicinal", "costus", "aromatic plants"]
+  - canonical: "Plant Experiments"
+    prefix: ["plant experiment", "pflanzenversuch", "pflanzenexperiment"]
+
+  # --- Laboratory & analytics ---
+  - canonical: "Sample Preparation"
+    prefix: ["sample preparation", "sample collection", "probenvorbereitung"]
+  - canonical: "Plant Extraction"
+    prefix: ["plant extraction", "extraction", "pflanzenextraktion"]
+  - canonical: "Isotope Analysis (15N)"
+    prefix: ["isotope", "15n", "nitrogen isotope", "isotopen"]
+  - canonical: "pH/EC Measurement"
+    prefix: ["ph/ec", "ph and ec", "ph-wert", "ec measurement", "ph measurement"]
+  - canonical: "Soil and Root Sampling"
+    prefix: ["soil sampling", "root sampling", "soil and root", "bodenbeprobung"]
+  - canonical: "Root Trait Analysis"
+    prefix: ["root trait", "root architecture", "root hair", "root density", "wurzel"]
+  - canonical: "Crop Quality Assessment"
+    prefix: ["crop quality", "quality assessment", "qualitätsbewertung", "qualitaetsbewertung"]
+  - canonical: "Mass Spectrometry"
+    prefix: ["mass spectrometry", "mass spectroscopy", "massenspektrometrie"]
+  - canonical: "Chromatography"
+    prefix: ["chromatograph"]
+  - canonical: "Analytical Procedures"
+    prefix: ["analytical procedure", "analytical method", "analytische verfahren", "laboratory analysis", "laboranalytik"]
+
+  # --- Quality & food safety ---
+  - canonical: "Food Safety"
+    prefix: ["food safety", "lebensmittelsicherheit"]
+  - canonical: "Quality Assurance"
+    prefix: ["quality assurance", "qualitätssicherung", "qualitaetssicherung"]
+  - canonical: "Quality Control"
+    prefix: ["quality control", "qualitätskontrolle", "qualitaetskontrolle"]
+  - canonical: "Contamination Control"
+    prefix: ["contamination", "kontamination", "fungal"]
+  - canonical: "HACCP"
+    prefix: ["haccp"]
+  - canonical: "GMP/GLP"
+    exact: ["gmp", "glp", "good laboratory practice", "good manufacturing practice"]
+
+  # --- Software & data ---
+  - canonical: "ImageJ"
+    prefix: ["imagej", "image j", "fiji"]
+  - canonical: "Microsoft Excel"
+    prefix: ["microsoft excel", "excel"]
+    exact: ["excel", "ms excel"]
+  - canonical: "Data Analysis"
+    prefix: ["data analysis", "quantitative and qualitative", "datenanalyse", "crop data analysis"]
+  - canonical: "Experimental Design"
+    prefix: ["experimental design", "experiment design", "versuchsplanung"]
+  - canonical: "Documentation & Reproducibility"
+    prefix: ["documentation", "reproducib", "dokumentation"]
+
+  # --- Research ---
+  - canonical: "Literature Review"
+    prefix: ["literature review", "literaturrecherche", "systematic review", "research synthesis", "forschungssynthese"]
+  - canonical: "International Research Collaboration"
+    prefix: ["international research", "international collaboration", "cross-institutional", "research collaboration"]
+  - canonical: "Scientific Writing"
+    prefix: ["scientific writing", "technical writing"]
+
+  # --- Certifications / training ---
+  - canonical: "VPB Certification (East-West Seed / WUR)"
+    prefix: ["vpb", "vegetable production beginner"]
+
+  # --- Soft skills ---
+  - canonical: "Time Management"
+    prefix: ["time management", "multitasking", "zeitmanagement"]
+  - canonical: "Cross-Functional Collaboration"
+    prefix: ["cross-functional", "team collaboration", "collaboration"]
